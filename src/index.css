@@ -1,13 +1,114 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: #101828;
+  font-style: normal;
+}
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1750px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#profile__img {
+  width: 40%;
+  border-radius: 112px;
+}
+#twitter {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+}
+#slack {
+  display: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.links {
+  width: 90%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
 }
+a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #101828;
+  height: 100px;
+  background-color: #eaecf0;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 28px;
+}
+.brands-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+#brands{
+  width: 80px;
+  height: 50px;
+}
+#brands:hover{
+  cursor: pointer;
+}
+.footer{
+  width: 88%;
+  border-top: 1px solid #667085;
+}
+
+
+.footer-inner{
+  width: 90%;
+  height: 171px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+#footer-h1{
+  color: #000000;
+  font-size: 30px
+}
+#footer-span{
+  color: #E7332B;
+}
+
+#footer-p{
+  color: #667085;
+  font-weight: 400;
+font-size: 20px;
+}
+
+@media only screen and (max-width: 761px){
+.footer-inner {
+  width: 92%;
+    height: 171px;
+    display: flex;
+    margin: auto;
+    height: 198px;
+    flex-direction: column;
+    align-items: start;
+}
+.footer{
+  text-align: start;
+}
+#footer-logo{
+  width: 127px;
+}
+
+} 
