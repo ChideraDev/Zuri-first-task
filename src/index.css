@@ -112,3 +112,150 @@ font-size: 20px;
 }
 
 } 
+.contact_page{
+  width: 99%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contact_header{
+  text-align: start;
+  width: 1094px;
+  margin-bottom: 20px ;
+  margin-top: 100px;
+}
+#contact_heading{
+  font-weight: 600;
+font-size: 60px;
+color: #101828;
+
+}
+#contact_about{
+  font-weight: 400;
+font-size: 30px;
+line-height: 30px;
+margin: 0;
+color: #475467;
+}
+.contact-input1{
+  display: flex;
+  gap: 50px;
+}
+
+.name_labels{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  line-height: 33px;
+  font-weight: 500;
+font-size: 20px;
+color: #344054;
+margin-top: 20px ;
+}
+
+#first_name, #last_name{
+  width: 500px;
+  height: 100px;
+  border: 1px solid #D0D5DD;
+  border-radius:8px;
+  padding-left: 15px;
+  font-weight: 600;
+font-size: 15px;
+outline: none;
+color: #101828;
+}
+.contact-input2{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+}
+#email{
+  height: 100px;
+  border: 1px solid #D0D5DD;
+  border-radius:8px;
+  padding-left: 15px;
+  font-weight: 600;
+font-size: 1em;
+outline: none;
+color: #101828;
+}
+
+#message{
+  resize: none;
+  height: 150px;
+  border: 1px solid #D0D5DD;
+  border-radius:8px;
+  padding-left: 15px;
+  padding-top: 15px ;
+  font-weight: 600;
+font-size: 15px;
+color: #101828;
+outline: none;
+}
+
+#checkbox_label{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 33px;
+  font-weight: 500;
+font-size: 20px;
+color: #475467;
+margin-top: 38px ;
+gap: 10px;
+}
+
+#checkbox{
+  width: 37px;
+  height: 33px;
+  cursor: pointer;
+  border-radius: 30px !important;
+  border: 1px solid #D0D5DD;
+}
+
+#btn_submit{
+  width: 97%;
+    height: 75px;
+    text-align: center;
+    background: #1570EF;
+    border: 1px solid #1570EF;
+    box-shadow: 0px 1px 2px rgb(16 24 40 / 5%);
+    border-radius: 8px;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 38px;
+    margin-bottom: 190px ;
+}
+
+/* @media only screen and (max-device-width : 640px) { 
+  .contact-input1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 948px; 
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+  width: 700px;
+}
+.contact_header{
+  width: 668px;
+}
+#contact_about{
+  font-size: 20px;
+}
+ 
+
+} */
