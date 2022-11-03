@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Zuri-first-task/static/css/main.584120f8.css",
-    "main.js": "/Zuri-first-task/static/js/main.def86dbb.js",
+    "main.css": "/Zuri-first-task/static/css/main.b7689abe.css",
+    "main.js": "/Zuri-first-task/static/js/main.bf47ddbd.js",
     "static/js/787.1e8ac1bf.chunk.js": "/Zuri-first-task/static/js/787.1e8ac1bf.chunk.js",
     "static/media/slack.jpg": "/Zuri-first-task/static/media/slack.fcad3e176cd81d2c2d55.jpg",
     "static/media/profile.jpg": "/Zuri-first-task/static/media/profile.3d2e91564a5acf8cf96c.jpg",
     "index.html": "/Zuri-first-task/index.html",
-    "main.584120f8.css.map": "/Zuri-first-task/static/css/main.584120f8.css.map",
-    "main.def86dbb.js.map": "/Zuri-first-task/static/js/main.def86dbb.js.map",
+    "main.b7689abe.css.map": "/Zuri-first-task/static/css/main.b7689abe.css.map",
+    "main.bf47ddbd.js.map": "/Zuri-first-task/static/js/main.bf47ddbd.js.map",
     "787.1e8ac1bf.chunk.js.map": "/Zuri-first-task/static/js/787.1e8ac1bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.584120f8.css",
-    "static/js/main.def86dbb.js"
+    "static/css/main.b7689abe.css",
+    "static/js/main.bf47ddbd.js"
   ]
 }
