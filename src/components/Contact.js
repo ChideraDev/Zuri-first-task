@@ -11,9 +11,9 @@ export default function Contact() {
           Hi there, contact me to ask me about anything you have in mind.
         </p>
       </div>
-      <form className="contact-form">
         <div className="contact-input1">
-          <label className="name_labels">
+        <div className="firstName">
+        <label className="name_labels">
             First Name
             <input
               type="text"
@@ -22,7 +22,9 @@ export default function Contact() {
               placeholder="Enter your first name"
             />
           </label>
-          <label className="name_labels">
+        </div>
+         <div className="lastName">
+         <label className="name_labels">
             Last Name
             <input
               type="text"
@@ -31,9 +33,11 @@ export default function Contact() {
               placeholder="Enter your last name"
             />
           </label>
+         </div>
+         
         </div>
-
-        <label className="name_labels">
+<div className="email_div">
+<label className="name_labels">
           Email
           <input
             type="text"
@@ -42,20 +46,25 @@ export default function Contact() {
             placeholder="yourname@email.com"
           />
         </label>
-        <label className="name_labels">
+</div>
+       <div className="textarea">
+       <label className="name_labels">
           Message
           <textarea
             id="message"
             placeholder="Send me a message and I'll reply you as soon as possible..."
           ></textarea>
         </label>
-        <label id="checkbox_label">
+       </div>
+       <div class="checkbox_side">
+       <label id="checkbox_label">
           <input type="checkbox" id="checkbox" />
           You agree to providing your data to Chidera Onyekachi who may contact
           you.
         </label>
-        <input type="submit" value="Send message" id="btn_submit" />
-      </form>
+       </div>
+        
+        <input type="submit" value="Send message" id="btn__submit" />
     </div>
     <Footer/>
     </div>
