@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Zuri-first-task/static/css/main.edb825d8.css",
+    "main.css": "/Zuri-first-task/static/css/main.a46aab10.css",
     "main.js": "/Zuri-first-task/static/js/main.cd4aa040.js",
     "static/js/787.1e8ac1bf.chunk.js": "/Zuri-first-task/static/js/787.1e8ac1bf.chunk.js",
     "static/media/slack.jpg": "/Zuri-first-task/static/media/slack.fcad3e176cd81d2c2d55.jpg",
     "static/media/profile.jpg": "/Zuri-first-task/static/media/profile.3d2e91564a5acf8cf96c.jpg",
     "index.html": "/Zuri-first-task/index.html",
-    "main.edb825d8.css.map": "/Zuri-first-task/static/css/main.edb825d8.css.map",
+    "main.a46aab10.css.map": "/Zuri-first-task/static/css/main.a46aab10.css.map",
     "main.cd4aa040.js.map": "/Zuri-first-task/static/js/main.cd4aa040.js.map",
     "787.1e8ac1bf.chunk.js.map": "/Zuri-first-task/static/js/787.1e8ac1bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edb825d8.css",
+    "static/css/main.a46aab10.css",
     "static/js/main.cd4aa040.js"
   ]
 }
