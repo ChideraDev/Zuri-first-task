@@ -13,7 +13,7 @@ export default function Contact() {
       </div>
         <div className="contact-input1">
         <div className="firstName">
-        <label className="name_labels">
+        <label htmlFor="first_name" className="name_labels">
             First Name
             <input
               type="text"
@@ -24,7 +24,7 @@ export default function Contact() {
           </label>
         </div>
          <div className="lastName">
-         <label className="name_labels">
+         <label htmlFor="last_name" className="name_labels">
             Last Name
             <input
               type="text"
@@ -37,7 +37,7 @@ export default function Contact() {
          
         </div>
 <div className="email_div">
-<label className="name_labels">
+<label htmlFor="email" className="name_labels">
           Email
           <input
             type="text"
@@ -48,7 +48,7 @@ export default function Contact() {
         </label>
 </div>
        <div className="textarea">
-       <label className="name_labels">
+       <label htmlFor="message" className="name_labels">
           Message
           <textarea
             id="message"
@@ -57,7 +57,7 @@ export default function Contact() {
         </label>
        </div>
        <div class="checkbox_side">
-       <label id="checkbox_label">
+       <label htmlFor="checkbox" id="checkbox_label">
           <input type="checkbox" id="checkbox" />
           You agree to providing your data to Chidera Onyekachi who may contact
           you.
