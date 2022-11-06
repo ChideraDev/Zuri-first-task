@@ -118,14 +118,14 @@ font-size: 20px;
 }
 #contact_heading{
   font-weight: 600;
-font-size: 60px;
+font-size: 48px;
 color: #101828;
 margin: 0;
 
 }
 #contact_about{
   font-weight: 400;
-font-size: 30px;
+font-size: 20px;
 line-height: 30px;
 margin: 0;
 color: #475467;
@@ -147,7 +147,7 @@ margin-top: 20px ;
 }
 
 #first_name, #last_name{
-  height: 100px;
+  height: 50px;
   border: 1px solid #D0D5DD;
   border-radius:8px;
  text-align: start;
@@ -164,7 +164,7 @@ color: #101828;
   width: 100%;
 }
 #email{
-  height: 100px;
+  height: 50px;
   border: 1px solid #D0D5DD;
   border-radius:8px;
   text-align: start;
@@ -177,7 +177,7 @@ color: #101828;
 
 #message{
   resize: none;
-  height: 150px;
+  height: 100px;
   border: 1px solid #D0D5DD;
   border-radius:8px;
  text-align: start;
@@ -195,17 +195,16 @@ outline: none;
   align-items: center;
   line-height: 33px;
   font-weight: 500;
-font-size: 20px;
+font-size: 15px;
 color: #475467;
 margin-top: 38px ;
 gap: 10px;
 }
 
 #checkbox{
-  width: 37px;
-  height: 33px;
+  width: 26px;
+  height: 19px;
   cursor: pointer;
-  border-radius: 30px !important;
   border: 1px solid #D0D5DD;
 }
 
